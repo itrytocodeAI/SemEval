@@ -1,0 +1,15 @@
+2026-03-29 05:49:10,369 [INFO] Device: cuda (GPU: NVIDIA GeForce RTX 4050 Laptop GPU)
+2026-03-29 05:49:18,230 [INFO] Loading tokenizer: microsoft/deberta-v3-base
+2026-03-29 05:49:21,188 [INFO] ======================================================================
+2026-03-29 05:49:21,188 [INFO] DeBERTa-v3 VA Regression | laptop | 15 epochs | BS=8
+2026-03-29 05:49:21,188 [INFO] ======================================================================
+2026-03-29 05:49:21,214 [INFO]   Dataset: 5773 samples
+2026-03-29 05:49:21,215 [INFO]   Dataset: 275 samples
+2026-03-29 05:49:28,392 [INFO] Params: 184,044,996
+2026-03-29 05:49:28,393 [INFO] Steps: 5415, Warmup: 541
+2026-03-29 06:29:14,182 [INFO] Predictions: predictions\custom_deberta_task1_laptop.jsonl
+2026-03-29 06:29:14,235 [INFO] Results appended to logs\baseline_results.csv
+2026-03-29 06:29:14,235 [INFO] 
+==================================================
+Best RMSE_VA: 1.0535
+==================================================

@@ -1,0 +1,16 @@
+2026-03-29 07:28:19,215 [INFO] Device: cuda (GPU: NVIDIA GeForce RTX 4050 Laptop GPU)
+2026-03-29 07:28:23,078 [INFO] Loading tokenizer: microsoft/deberta-v3-base
+2026-03-29 07:28:25,270 [INFO] ======================================================================
+2026-03-29 07:28:25,270 [INFO] DimABSA V3 Phase 1 | restaurant | 15 epochs | BS=8
+2026-03-29 07:28:25,271 [INFO]   Upgrades: multi-task, arousal_feats, label_smoothing, hard_mining
+2026-03-29 07:28:25,271 [INFO] ======================================================================
+2026-03-29 07:28:25,292 [INFO]   Dataset: 3659 samples
+2026-03-29 07:28:25,294 [INFO]   Dataset: 340 samples
+2026-03-29 07:28:33,555 [INFO] Params: 184,246,746
+2026-03-29 07:28:33,555 [INFO] Steps: 3435
+2026-03-29 07:51:06,695 [INFO] 
+==================================================
+Best RMSE_VA: 1.1418
+==================================================
+2026-03-29 07:51:22,942 [INFO] Predictions: predictions\v3_task1_restaurant.jsonl
+2026-03-29 07:51:22,983 [INFO] Results appended to logs\baseline_results.csv

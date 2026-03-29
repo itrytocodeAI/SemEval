@@ -1,0 +1,16 @@
+2026-03-29 08:04:13,913 [INFO] Device: cuda (GPU: NVIDIA GeForce RTX 4050 Laptop GPU)
+2026-03-29 08:04:17,385 [INFO] Loading tokenizer: microsoft/deberta-v3-base
+2026-03-29 08:04:19,520 [INFO] ======================================================================
+2026-03-29 08:04:19,521 [INFO] DimABSA V3 Phase 1 | laptop | 15 epochs | BS=8
+2026-03-29 08:04:19,521 [INFO]   Upgrades: multi-task, arousal_feats, label_smoothing, hard_mining
+2026-03-29 08:04:19,522 [INFO] ======================================================================
+2026-03-29 08:04:19,537 [INFO]   Dataset: 5773 samples
+2026-03-29 08:04:19,538 [INFO]   Dataset: 275 samples
+2026-03-29 08:04:24,892 [INFO] Params: 184,246,746
+2026-03-29 08:04:24,892 [INFO] Steps: 5415
+2026-03-29 08:41:57,123 [INFO] 
+==================================================
+Best RMSE_VA: 1.0840
+==================================================
+2026-03-29 08:42:06,419 [INFO] Predictions: predictions\v3_task1_laptop.jsonl
+2026-03-29 08:42:06,456 [INFO] Results appended to logs\baseline_results.csv

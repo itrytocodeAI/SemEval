@@ -1,0 +1,45 @@
+2026-03-29 05:20:16,630 [INFO] Device: cuda
+2026-03-29 05:20:31,540 [INFO] ======================================================================
+2026-03-29 05:20:31,540 [INFO] DimABSA2026 – Subtask 1 Custom BERT Model
+2026-03-29 05:20:31,540 [INFO] Domain: laptop | Epochs: 10 | BS: 16 | LR: 2e-05
+2026-03-29 05:20:31,541 [INFO] ======================================================================
+2026-03-29 05:20:31,562 [INFO] Loaded 4076 train, 200 dev entries
+2026-03-29 05:20:31,569 [INFO]   Dataset: 5773 aspect-level samples from 4076 entries
+2026-03-29 05:20:31,571 [INFO]   Dataset: 275 aspect-level samples from 200 entries
+2026-03-29 05:20:35,313 [INFO] Training steps: 3610, Warmup: 361
+2026-03-29 05:20:35,314 [INFO] Model params: 109,679,618
+2026-03-29 05:20:35,383 [INFO] Epoch 1/10
+2026-03-29 05:23:14,421 [INFO]   Train Loss: 14.143043
+2026-03-29 05:23:14,421 [INFO]   Dev   Loss: 1.260040  |  RMSE_VA: 1.6167  |  RMSE_norm: 0.1429
+2026-03-29 05:23:20,211 [INFO] Epoch 2/10
+2026-03-29 05:26:09,639 [INFO]   Train Loss: 0.837000
+2026-03-29 05:26:09,639 [INFO]   Dev   Loss: 0.655289  |  RMSE_VA: 1.1622  |  RMSE_norm: 0.1027
+2026-03-29 05:26:10,493 [INFO] Epoch 3/10
+2026-03-29 05:29:03,522 [INFO]   Train Loss: 0.563619
+2026-03-29 05:29:03,523 [INFO]   Dev   Loss: 0.574913  |  RMSE_VA: 1.0907  |  RMSE_norm: 0.0964
+2026-03-29 05:29:04,697 [INFO] Epoch 4/10
+2026-03-29 05:31:59,154 [INFO]   Train Loss: 0.446356
+2026-03-29 05:31:59,155 [INFO]   Dev   Loss: 0.591003  |  RMSE_VA: 1.1019  |  RMSE_norm: 0.0974
+2026-03-29 05:31:59,156 [INFO] Epoch 5/10
+2026-03-29 05:34:50,268 [INFO]   Train Loss: 0.367367
+2026-03-29 05:34:50,269 [INFO]   Dev   Loss: 0.626059  |  RMSE_VA: 1.1333  |  RMSE_norm: 0.1002
+2026-03-29 05:34:50,273 [INFO] Epoch 6/10
+2026-03-29 05:37:41,086 [INFO]   Train Loss: 0.319186
+2026-03-29 05:37:41,087 [INFO]   Dev   Loss: 0.587091  |  RMSE_VA: 1.0993  |  RMSE_norm: 0.0972
+2026-03-29 05:37:41,090 [INFO] Epoch 7/10
+2026-03-29 05:40:30,319 [INFO]   Train Loss: 0.280763
+2026-03-29 05:40:30,320 [INFO]   Dev   Loss: 0.582762  |  RMSE_VA: 1.0954  |  RMSE_norm: 0.0968
+2026-03-29 05:40:30,322 [INFO] Epoch 8/10
+2026-03-29 05:43:15,067 [INFO]   Train Loss: 0.253764
+2026-03-29 05:43:15,068 [INFO]   Dev   Loss: 0.586474  |  RMSE_VA: 1.0994  |  RMSE_norm: 0.0972
+2026-03-29 05:43:15,069 [INFO] Epoch 9/10
+2026-03-29 05:46:04,029 [INFO]   Train Loss: 0.230468
+2026-03-29 05:46:04,029 [INFO]   Dev   Loss: 0.594983  |  RMSE_VA: 1.1081  |  RMSE_norm: 0.0979
+2026-03-29 05:46:04,033 [INFO] Epoch 10/10
+2026-03-29 05:48:53,319 [INFO]   Train Loss: 0.212950
+2026-03-29 05:48:53,319 [INFO]   Dev   Loss: 0.587167  |  RMSE_VA: 1.1010  |  RMSE_norm: 0.0973
+2026-03-29 05:48:53,319 [INFO] 
+==================================================
+2026-03-29 05:48:53,320 [INFO] Training complete. Best epoch: 3, Best RMSE_VA: 1.0907
+2026-03-29 05:48:59,357 [INFO] Predictions saved to C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\custom_bert_task1_laptop.jsonl
+2026-03-29 05:48:59,359 [INFO] Training curve saved to logs\training_curve_task1_laptop_20260329_052016.json

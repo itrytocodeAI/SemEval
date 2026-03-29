@@ -1,0 +1,16 @@
+2026-03-29 01:38:01,894 [INFO] ======================================================================
+2026-03-29 01:38:01,894 [INFO] DimABSA2026 – Subtask 3 Pipeline Baselines
+2026-03-29 01:38:01,894 [INFO] Domain: restaurant  |  Key: Quadruplet
+2026-03-29 01:38:01,894 [INFO] ======================================================================
+2026-03-29 01:38:01,903 [INFO] Loaded 2284 train, 200 dev entries
+2026-03-29 01:38:01,905 [INFO] Training mean: V=6.2199, A=6.8435
+2026-03-29 01:38:01,906 [INFO] 
+[Oracle + Mean VA Baseline]
+2026-03-29 01:38:01,910 [INFO]   Saved 200 predictions to C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_mean_task3_restaurant.jsonl
+2026-03-29 01:38:01,913 [INFO] 
+[Oracle + Lexicon VA Baseline]
+2026-03-29 01:38:01,916 [INFO]   Saved 200 predictions to C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_lexicon_task3_restaurant.jsonl
+2026-03-29 01:38:01,916 [INFO] 
+Done! Run the official evaluation script to compute cF1:
+2026-03-29 01:38:01,916 [INFO]   python evaluation_script/metrics_subtask_1_2_3.py -t 3 -p C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_mean_task3_restaurant.jsonl -g C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\task-dataset\track_a\subtask_3\eng\eng_restaurant_dev_task3.jsonl
+2026-03-29 01:38:01,916 [INFO]   python evaluation_script/metrics_subtask_1_2_3.py -t 3 -p C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_lexicon_task3_restaurant.jsonl -g C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\task-dataset\track_a\subtask_3\eng\eng_restaurant_dev_task3.jsonl

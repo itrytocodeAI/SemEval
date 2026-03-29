@@ -1,0 +1,39 @@
+2026-03-29 03:17:28,945 [INFO] ======================================================================
+2026-03-29 03:17:28,945 [INFO] DimABSA2026 – Complete Baseline Suite (Task 1)
+2026-03-29 03:17:28,946 [INFO] ======================================================================
+2026-03-29 03:17:29,016 [INFO]   Loaded 2284 train, 200 dev
+2026-03-29 03:17:29,023 [INFO]   Train: 3659 VA, mean_V=6.220, mean_A=6.844, unique_aspects=875
+2026-03-29 03:17:48,743 [INFO]   TF-IDF+SVR: training on 3659 samples...
+2026-03-29 03:18:00,979 [INFO]   Random               RMSE_VA=4.4853  PCC_V=0.0558  PCC_A=-0.0216
+2026-03-29 03:18:00,993 [INFO]   Global Mean          RMSE_VA=1.8635  PCC_V=nan  PCC_A=nan
+2026-03-29 03:18:01,012 [INFO]   Per-Aspect Mean      RMSE_VA=1.9684  PCC_V=0.0906  PCC_A=0.0010
+2026-03-29 03:18:01,029 [INFO]   Sentiment Lexicon    RMSE_VA=1.4608  PCC_V=0.7577  PCC_A=0.3213
+2026-03-29 03:18:01,046 [INFO]   TextBlob             RMSE_VA=1.8323  PCC_V=0.6702  PCC_A=0.2548
+2026-03-29 03:18:01,059 [INFO]   TF-IDF + SVR         RMSE_VA=1.5896  PCC_V=0.5948  PCC_A=0.3806
+2026-03-29 03:18:01,210 [INFO]   Loaded 4076 train, 200 dev
+2026-03-29 03:18:01,232 [INFO]   Train: 5773 VA, mean_V=5.937, mean_A=6.668, unique_aspects=956
+2026-03-29 03:18:01,436 [INFO]   TF-IDF+SVR: training on 5773 samples...
+2026-03-29 03:18:27,670 [INFO]   Random               RMSE_VA=4.5922  PCC_V=0.1033  PCC_A=-0.0425
+2026-03-29 03:18:27,678 [INFO]   Global Mean          RMSE_VA=2.0599  PCC_V=nan  PCC_A=nan
+2026-03-29 03:18:27,692 [INFO]   Per-Aspect Mean      RMSE_VA=1.9852  PCC_V=0.2248  PCC_A=0.1382
+2026-03-29 03:18:27,705 [INFO]   Sentiment Lexicon    RMSE_VA=1.7660  PCC_V=0.5958  PCC_A=0.2200
+2026-03-29 03:18:27,717 [INFO]   TextBlob             RMSE_VA=2.2980  PCC_V=0.6165  PCC_A=0.3048
+2026-03-29 03:18:27,726 [INFO]   TF-IDF + SVR         RMSE_VA=1.5824  PCC_V=0.6200  PCC_A=0.3647
+2026-03-29 03:18:27,729 [INFO] 
+CSV saved: logs\baseline_results.csv
+2026-03-29 03:18:27,733 [INFO] JSON saved: logs\baseline_results.json
+2026-03-29 03:18:27,808 [INFO] 
+======================================================================
+Model                Domain      RMSE_VA    PCC_V    PCC_A
+2026-03-29 03:18:27,859 [INFO] Random               restaurant   4.4853   0.0558  -0.0216
+2026-03-29 03:18:27,864 [INFO] Global Mean          restaurant   1.8635      NaN      NaN
+2026-03-29 03:18:27,868 [INFO] Per-Aspect Mean      restaurant   1.9684   0.0906   0.0010
+2026-03-29 03:18:27,873 [INFO] Sentiment Lexicon    restaurant   1.4608   0.7577   0.3213
+2026-03-29 03:18:27,880 [INFO] TextBlob             restaurant   1.8323   0.6702   0.2548
+2026-03-29 03:18:27,886 [INFO] TF-IDF + SVR         restaurant   1.5896   0.5948   0.3806
+2026-03-29 03:18:27,891 [INFO] Random               laptop       4.5922   0.1033  -0.0425
+2026-03-29 03:18:27,903 [INFO] Global Mean          laptop       2.0599      NaN      NaN
+2026-03-29 03:18:27,909 [INFO] Per-Aspect Mean      laptop       1.9852   0.2248   0.1382
+2026-03-29 03:18:27,916 [INFO] Sentiment Lexicon    laptop       1.7660   0.5958   0.2200
+2026-03-29 03:18:27,920 [INFO] TextBlob             laptop       2.2980   0.6165   0.3048
+2026-03-29 03:18:27,928 [INFO] TF-IDF + SVR         laptop       1.5824   0.6200   0.3647

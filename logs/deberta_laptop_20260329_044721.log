@@ -1,0 +1,9 @@
+2026-03-29 04:47:21,908 [INFO] Device: cuda (GPU: NVIDIA GeForce RTX 4050 Laptop GPU)
+2026-03-29 04:47:25,814 [INFO] Loading tokenizer: microsoft/deberta-v3-base
+2026-03-29 04:47:28,557 [INFO] ======================================================================
+2026-03-29 04:47:28,558 [INFO] DeBERTa-v3 VA Regression | laptop | 15 epochs | BS=16
+2026-03-29 04:47:28,558 [INFO] ======================================================================
+2026-03-29 04:47:28,581 [INFO]   Dataset: 5773 samples
+2026-03-29 04:47:28,582 [INFO]   Dataset: 275 samples
+2026-03-29 04:47:35,982 [INFO] Params: 184,044,996
+2026-03-29 04:47:35,982 [INFO] Steps: 2707, Warmup: 270

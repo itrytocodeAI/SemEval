@@ -1,0 +1,6 @@
+Task1 Mean rest: Final Results: {'PCC_V': np.float64(nan), 'PCC_A': np.float64(nan), 'RMSE_VA': 1.8635399583777614}
+Task1 Lex rest: Final Results: {'PCC_V': np.float64(0.7577418415187414), 'PCC_A': np.float64(0.32131455486559), 'RMSE_VA': 1.4608407128209748}
+Task2 Mean rest: Final Results: {'TP': 353.03809698145994, 'FP': 0, 'FN': 0, 'cPrecision': 0.8652894533859312, 'cRecall': 0.8652894533859312, 'cF1': 0.8652894533859312}
+Task2 Lex rest: Final Results: {'TP': 363.5965453039991, 'FP': 0, 'FN': 0, 'cPrecision': 0.8911680031960763, 'cRecall': 0.8911680031960763, 'cF1': 0.8911680031960763}
+Task3 Mean rest: Final Results: {'TP': 353.03809698145994, 'FP': 0, 'FN': 0, 'cPrecision': 0.8652894533859312, 'cRecall': 0.8652894533859312, 'cF1': 0.8652894533859312}
+Task3 Lex rest: Final Results: {'TP': 363.5965453039988, 'FP': 0, 'FN': 0, 'cPrecision': 0.8911680031960756, 'cRecall': 0.8911680031960756, 'cF1': 0.8911680031960756}

@@ -1,0 +1,17 @@
+2026-03-29 03:37:49,134 [INFO] Device: cuda (GPU: NVIDIA GeForce RTX 4050 Laptop GPU)
+2026-03-29 03:37:52,865 [INFO] Loading tokenizer: microsoft/deberta-v3-base
+2026-03-29 03:37:54,972 [INFO] ======================================================================
+2026-03-29 03:37:54,973 [INFO] DeBERTa-v3 VA Regression | restaurant | 15 epochs | BS=16
+2026-03-29 03:37:54,973 [INFO] ======================================================================
+2026-03-29 03:37:54,992 [INFO]   Dataset: 3659 samples
+2026-03-29 03:37:54,993 [INFO]   Dataset: 340 samples
+2026-03-29 03:38:02,405 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-03-29 03:39:11,463 [INFO] Params: 184,044,996
+2026-03-29 03:39:11,464 [INFO] Steps: 1717, Warmup: 171
+2026-03-29 03:39:12,708 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-03-29 03:53:54,270 [INFO] Predictions: predictions\custom_deberta_task1_restaurant.jsonl
+2026-03-29 03:53:54,306 [INFO] Results appended to logs\baseline_results.csv
+2026-03-29 03:53:54,306 [INFO] 
+==================================================
+Best RMSE_VA: 1.2974
+==================================================

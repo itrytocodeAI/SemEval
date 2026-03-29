@@ -1,0 +1,45 @@
+2026-03-29 03:18:51,902 [INFO] Device: cuda
+2026-03-29 03:20:04,259 [INFO] ======================================================================
+2026-03-29 03:20:04,260 [INFO] DimABSA2026 – Subtask 1 Custom BERT Model
+2026-03-29 03:20:04,265 [INFO] Domain: restaurant | Epochs: 10 | BS: 16 | LR: 2e-05
+2026-03-29 03:20:04,267 [INFO] ======================================================================
+2026-03-29 03:20:04,352 [INFO] Loaded 2284 train, 200 dev entries
+2026-03-29 03:20:04,383 [INFO]   Dataset: 3659 aspect-level samples from 2284 entries
+2026-03-29 03:20:04,390 [INFO]   Dataset: 340 aspect-level samples from 200 entries
+2026-03-29 03:20:07,281 [INFO] Training steps: 2290, Warmup: 229
+2026-03-29 03:20:07,284 [INFO] Model params: 109,679,618
+2026-03-29 03:20:07,295 [INFO] Epoch 1/10
+2026-03-29 03:21:36,407 [INFO]   Train Loss: 21.196879
+2026-03-29 03:21:36,407 [INFO]   Dev   Loss: 2.142399  |  RMSE_VA: 2.0353  |  RMSE_norm: 0.1799
+2026-03-29 03:21:37,330 [INFO] Epoch 2/10
+2026-03-29 03:23:04,776 [INFO]   Train Loss: 1.626333
+2026-03-29 03:23:04,777 [INFO]   Dev   Loss: 0.824941  |  RMSE_VA: 1.3012  |  RMSE_norm: 0.1150
+2026-03-29 03:23:05,428 [INFO] Epoch 3/10
+2026-03-29 03:24:32,067 [INFO]   Train Loss: 0.850607
+2026-03-29 03:24:32,068 [INFO]   Dev   Loss: 0.760430  |  RMSE_VA: 1.2519  |  RMSE_norm: 0.1107
+2026-03-29 03:24:32,931 [INFO] Epoch 4/10
+2026-03-29 03:25:59,384 [INFO]   Train Loss: 0.598710
+2026-03-29 03:25:59,384 [INFO]   Dev   Loss: 0.781920  |  RMSE_VA: 1.2696  |  RMSE_norm: 0.1122
+2026-03-29 03:25:59,387 [INFO] Epoch 5/10
+2026-03-29 03:27:24,784 [INFO]   Train Loss: 0.456124
+2026-03-29 03:27:24,785 [INFO]   Dev   Loss: 0.910150  |  RMSE_VA: 1.3672  |  RMSE_norm: 0.1208
+2026-03-29 03:27:24,787 [INFO] Epoch 6/10
+2026-03-29 03:28:51,606 [INFO]   Train Loss: 0.379704
+2026-03-29 03:28:51,606 [INFO]   Dev   Loss: 0.742070  |  RMSE_VA: 1.2358  |  RMSE_norm: 0.1092
+2026-03-29 03:28:52,356 [INFO] Epoch 7/10
+2026-03-29 03:30:18,510 [INFO]   Train Loss: 0.345552
+2026-03-29 03:30:18,510 [INFO]   Dev   Loss: 0.654474  |  RMSE_VA: 1.1610  |  RMSE_norm: 0.1026
+2026-03-29 03:30:19,274 [INFO] Epoch 8/10
+2026-03-29 03:31:46,160 [INFO]   Train Loss: 0.301027
+2026-03-29 03:31:46,160 [INFO]   Dev   Loss: 0.723060  |  RMSE_VA: 1.2181  |  RMSE_norm: 0.1077
+2026-03-29 03:31:46,163 [INFO] Epoch 9/10
+2026-03-29 03:33:13,458 [INFO]   Train Loss: 0.272717
+2026-03-29 03:33:13,459 [INFO]   Dev   Loss: 0.752543  |  RMSE_VA: 1.2433  |  RMSE_norm: 0.1099
+2026-03-29 03:33:13,462 [INFO] Epoch 10/10
+2026-03-29 03:34:42,249 [INFO]   Train Loss: 0.264469
+2026-03-29 03:34:42,249 [INFO]   Dev   Loss: 0.716595  |  RMSE_VA: 1.2131  |  RMSE_norm: 0.1072
+2026-03-29 03:34:42,250 [INFO] 
+==================================================
+2026-03-29 03:34:42,250 [INFO] Training complete. Best epoch: 7, Best RMSE_VA: 1.1610
+2026-03-29 03:34:46,540 [INFO] Predictions saved to C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\custom_bert_task1_restaurant.jsonl
+2026-03-29 03:34:46,542 [INFO] Training curve saved to logs\training_curve_task1_restaurant_20260329_031851.json

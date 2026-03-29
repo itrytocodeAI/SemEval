@@ -1,0 +1,134 @@
+[
+  {
+    "model": "Random",
+    "domain": "restaurant",
+    "task": 1,
+    "RMSE_VA": 4.485251091404045,
+    "RMSE_norm": 0.39644393275702045,
+    "PCC_V": 0.05580781918495524,
+    "PCC_A": -0.021649411611813826,
+    "N": 340,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "Global Mean",
+    "domain": "restaurant",
+    "task": 1,
+    "RMSE_VA": 1.8635399583777614,
+    "RMSE_norm": 0.16471521769762645,
+    "PCC_V": null,
+    "PCC_A": null,
+    "N": 340,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "Per-Aspect Mean",
+    "domain": "restaurant",
+    "task": 1,
+    "RMSE_VA": 1.9683530738994495,
+    "RMSE_norm": 0.17397947579046077,
+    "PCC_V": 0.09063989589890771,
+    "PCC_A": 0.0009550116078114185,
+    "N": 340,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "Sentiment Lexicon",
+    "domain": "restaurant",
+    "task": 1,
+    "RMSE_VA": 1.4608407128209748,
+    "RMSE_norm": 0.12912129678363762,
+    "PCC_V": 0.7577418415187414,
+    "PCC_A": 0.32131455486559,
+    "N": 340,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "TextBlob",
+    "domain": "restaurant",
+    "task": 1,
+    "RMSE_VA": 1.8323389103418999,
+    "RMSE_norm": 0.16195740861684083,
+    "PCC_V": 0.6702154933771756,
+    "PCC_A": 0.2547515799138276,
+    "N": 340,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "TF-IDF + SVR",
+    "domain": "restaurant",
+    "task": 1,
+    "RMSE_VA": 1.5895867942552204,
+    "RMSE_norm": 0.14050095018780645,
+    "PCC_V": 0.5947566877921012,
+    "PCC_A": 0.3806006234236425,
+    "N": 340,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "Random",
+    "domain": "laptop",
+    "task": 1,
+    "RMSE_VA": 4.592209094067512,
+    "RMSE_norm": 0.40589777388020876,
+    "PCC_V": 0.10329023397346897,
+    "PCC_A": -0.042471209128076906,
+    "N": 275,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "Global Mean",
+    "domain": "laptop",
+    "task": 1,
+    "RMSE_VA": 2.0599390105711204,
+    "RMSE_norm": 0.18207460540069328,
+    "PCC_V": null,
+    "PCC_A": null,
+    "N": 275,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "Per-Aspect Mean",
+    "domain": "laptop",
+    "task": 1,
+    "RMSE_VA": 1.9852396237321992,
+    "RMSE_norm": 0.1754720500276585,
+    "PCC_V": 0.2248332275847846,
+    "PCC_A": 0.13815399014234017,
+    "N": 275,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "Sentiment Lexicon",
+    "domain": "laptop",
+    "task": 1,
+    "RMSE_VA": 1.765950066214681,
+    "RMSE_norm": 0.15608940838215418,
+    "PCC_V": 0.5957939121474762,
+    "PCC_A": 0.22003508878422606,
+    "N": 275,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "TextBlob",
+    "domain": "laptop",
+    "task": 1,
+    "RMSE_VA": 2.2979595692305343,
+    "RMSE_norm": 0.20311284928692855,
+    "PCC_V": 0.6165128392437502,
+    "PCC_A": 0.3048301313395758,
+    "N": 275,
+    "timestamp": "20260329_031728"
+  },
+  {
+    "model": "TF-IDF + SVR",
+    "domain": "laptop",
+    "task": 1,
+    "RMSE_VA": 1.5823521042480342,
+    "RMSE_norm": 0.13986148789232347,
+    "PCC_V": 0.6199836514084324,
+    "PCC_A": 0.36468267754239486,
+    "N": 275,
+    "timestamp": "20260329_031728"
+  }
+]

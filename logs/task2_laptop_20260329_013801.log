@@ -1,0 +1,16 @@
+2026-03-29 01:38:01,991 [INFO] ======================================================================
+2026-03-29 01:38:01,992 [INFO] DimABSA2026 – Subtask 2 Pipeline Baselines
+2026-03-29 01:38:01,992 [INFO] Domain: laptop  |  Key: Triplet
+2026-03-29 01:38:01,992 [INFO] ======================================================================
+2026-03-29 01:38:02,007 [INFO] Loaded 4076 train, 200 dev entries
+2026-03-29 01:38:02,010 [INFO] Training mean: V=5.9368, A=6.6680
+2026-03-29 01:38:02,010 [INFO] 
+[Oracle + Mean VA Baseline]
+2026-03-29 01:38:02,012 [INFO]   Saved 200 predictions to C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_mean_task2_laptop.jsonl
+2026-03-29 01:38:02,016 [INFO] 
+[Oracle + Lexicon VA Baseline]
+2026-03-29 01:38:02,018 [INFO]   Saved 200 predictions to C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_lexicon_task2_laptop.jsonl
+2026-03-29 01:38:02,018 [INFO] 
+Done! Run the official evaluation script to compute cF1:
+2026-03-29 01:38:02,018 [INFO]   python evaluation_script/metrics_subtask_1_2_3.py -t 2 -p C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_mean_task2_laptop.jsonl -g C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\task-dataset\track_a\subtask_2\eng\eng_laptop_dev_task2.jsonl
+2026-03-29 01:38:02,018 [INFO]   python evaluation_script/metrics_subtask_1_2_3.py -t 2 -p C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\predictions\baseline_lexicon_task2_laptop.jsonl -g C:\Users\ASUS\.gemini\antigravity\scratch\DimABSA2026\task-dataset\track_a\subtask_2\eng\eng_laptop_dev_task2.jsonl

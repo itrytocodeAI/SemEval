@@ -1,0 +1,18 @@
+2026-03-29 01:39:03,314 [INFO] Device: cpu
+2026-03-29 01:39:23,952 [INFO] ======================================================================
+2026-03-29 01:39:23,952 [INFO] DimABSA2026 – Subtask 1 Custom BERT Model
+2026-03-29 01:39:23,952 [INFO] Domain: restaurant | Epochs: 10 | BS: 16 | LR: 2e-05
+2026-03-29 01:39:23,953 [INFO] ======================================================================
+2026-03-29 01:39:23,961 [INFO] Loaded 2284 train, 200 dev entries
+2026-03-29 01:39:23,964 [INFO]   Dataset: 3659 aspect-level samples from 2284 entries
+2026-03-29 01:39:23,966 [INFO]   Dataset: 340 aspect-level samples from 200 entries
+2026-03-29 01:39:25,238 [WARNING] Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-03-29 01:40:38,304 [INFO] Training steps: 2290, Warmup: 229
+2026-03-29 01:40:38,306 [INFO] Model params: 109,679,618
+2026-03-29 01:40:38,312 [INFO] Epoch 1/10
+2026-03-29 02:09:43,692 [INFO]   Train Loss: 20.405840
+2026-03-29 02:09:43,713 [INFO]   Dev   Loss: 2.126066  |  RMSE_VA: 2.0276  |  RMSE_norm: 0.1792
+2026-03-29 02:09:44,417 [INFO] Epoch 2/10
+2026-03-29 02:38:42,447 [INFO]   Train Loss: 1.728177
+2026-03-29 02:38:42,450 [INFO]   Dev   Loss: 0.776268  |  RMSE_VA: 1.2596  |  RMSE_norm: 0.1113
+2026-03-29 02:38:42,973 [INFO] Epoch 3/10
